@@ -1,0 +1,223 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../images/bg4.jpg);
+  font-family: sans-serif, arial;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 10px 5px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+h4.title {
+  color: #428bca;
+}
+
+
+#hot ul a {
+  color: #000;
+  text-decoration: none;
+}
+
+#hot ul a:hover {
+  color: #428bca;
+}
+
+#hot ul li {
+  margin-bottom: 6px;
+}
+
+#user ul li {
+  margin-bottom: 10px;
+}
+
+#user ul li span a {
+  color: #000;
+}
+
+.pull_left {
+  float: left;
+  margin-right: 10px;
+}
+
+.pull_right {
+  float: right;
+}
+
+#comments p {
+  font-size: 13px;
+}
+
+#comments h4 {
+  color: #428bca;
+}
+
+.comment_date {
+  float: right;
+  font-size: 13px;
+  color: #428bca;
+}
+
+.comment_box {
+  /*margin-bottom: 16px;*/
+}
+
+.comment_avatar {
+  /*height: 54px;*/
+  position: relative;
+  top: 0px;
+  /*width: 54px;*/
+}
+
+.comment_font {
+  font-size: 13px;
+}
+
+.video_box {
+  margin-bottom: 20px;
+}
+
+.video_intro {
+  overflow: hidden;
+  height: 87px;
+  font-size: 13px;
+}
+
+/* POST */
+#post {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.post {
+  margin-left: 10px;
+}
+
+#recommend h4, h5 {
+  color: #428bca;
+}
+
+#recommend .post p {
+  font-size: 13px;
+}
+
+#links h4 {
+  color: #428bca;
+}
+
+#links {
+  padding-bottom: 20px;
+}
+
+.links a {
+  color: #000;
+}
+
+.links a:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.teacher_avatar {
+  margin-bottom: 10px;
+}
+
+.teacher_avatar p {
+  /*margin-right: 10px;*/
+  margin-top: 12px;
+  margin-left: 4px;
+}
+
+.course_teacher {
+  /*margin-left: 200px;*/
+  float: right;
+}
+
+.course_teacher a {
+  font-size: 14px;
+}
+
+.course_intro {
+  /*margin-top: 20px;*/
+}
+
+.course_intro h5 {
+  color: #000;
+  line-height: 2em;
+}
+
+/*course_comment*/
+
+.course_comment {
+  margin-top: 50px;
+}
+
+.course_star {
+  margin-bottom: 10px;
+  margin-top: 6px; 
+}
+
+#same_course h4 {
+  color: #428bca;
+}
+
+.same_course {
+  margin-left: 26px;
+}
+
+.same_course h5 {
+  /*margin-bottom: 20px;*/
+}
+
+.course_box a img {
+  width: 120px;
+  height: 80px;
+  border: 1px solid #f1f1f1;
+}
+
+.course_box h6 a {
+  color: #666;
+}
+
+.course_box p {
+  font-size: 13px;
+}
+
+.course_left h4 {
+  font-size: 16px;
+}

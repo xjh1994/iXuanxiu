@@ -1,0 +1,968 @@
+[ 2015-04-12T20:03:38+08:00 ] ::1 /ixuanxiu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.006965s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000396s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000279s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Model.class.php 第 596 行.
+ERR: 错误的查询条件:[nosign=>Array]
+
+[ 2015-04-12T20:05:23+08:00 ] ::1 /ixuanxiu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.006328s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000597s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.007914s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004105s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-04-12T20:05:46+08:00 ] ::1 /ixuanxiu/index.php/Index/login/type/renren.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+
+[ 2015-04-12T20:08:42+08:00 ] 127.0.0.1 /ixuanxiu/index.php?m=Home&a=callback&type=renren&code=WPELovDkvUcwSJBuH7O0dAzO11oSs5bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005276s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-04-12T20:08:43+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004237s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.004340s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.003082s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-04-12T20:08:48+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004342s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-04-12T20:08:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.006415s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000421s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004405s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004627s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-04-12T20:09:10+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/login/type/renren.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+
+[ 2015-04-12T20:09:11+08:00 ] 127.0.0.1 /ixuanxiu/index.php?m=Home&a=callback&type=renren&code=yc4N4BNdKQQjpVRBMlHa9Wq6j3XISDIe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007489s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-04-12T20:09:12+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005334s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.002886s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002896s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-04-12T20:09:14+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004367s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-04-12T20:09:15+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.006896s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002946s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003421s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-04-12T20:09:40+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.004996s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-04-12T20:10:42+08:00 ] 127.0.0.1 /ixuanxiu/index.php/My/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\HomeBaseController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-04-12T20:10:45+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/login/type/renren.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+
+[ 2015-04-12T20:10:48+08:00 ] 127.0.0.1 /ixuanxiu/index.php?m=Home&a=callback&type=renren&code=d4g4qvNY28PPCyGHeUc7y3p4Fzm9Io7V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 28 行.
+NOTIC: [8] Undefined index: user D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\BaseController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 94 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ixuanxiu\Application\Home\Event\TypeEvent.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005061s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-04-12T20:10:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005655s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.006028s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002967s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-04-12T20:10:51+08:00 ] 127.0.0.1 /ixuanxiu/index.php/My/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004109s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2015-04-12T20:11:25+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005138s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.002785s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004896s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-04-12T20:13:34+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005054s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003150s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004689s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-04-12T20:13:38+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005074s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003102s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000502s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-04-12T20:13:40+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005300s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003053s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.003725s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000412s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-04-12T20:13:42+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004588s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003075s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.003718s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-04-12T20:15:25+08:00 ] 127.0.0.1 /ixuanxiu/index.php/My/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005473s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-04-12T20:15:38+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005384s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.004870s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.003153s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-04-12T20:15:42+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004628s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.002981s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-04-12T20:15:47+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004721s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003019s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:48+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004740s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.002985s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:48+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001500s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.001337s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004654s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003037s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001747s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.001572s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002006s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.001657s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:15:49+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/nosign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001719s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.001658s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: nosign D:\xampp\htdocs\ixuanxiu\Application\Home\Controller\CourseController.class.php 第 29 行.
+ERR: 非法数据对象！:[nosign=>1]
+
+[ 2015-04-12T20:16:14+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/index/id/1.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005866s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.005705s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2015-04-12T20:20:07+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006879s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003005s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002898s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-04-12T20:20:12+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Course/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004749s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.002935s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-04-12T20:23:41+08:00 ] 127.0.0.1 /ixuanxiu/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\ixuanxiu\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006830s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 353309262 LIMIT 1   [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.003024s ]
+SQL: SELECT * FROM `course` LIMIT 7   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `course` ORDER BY comment_times DESC LIMIT 9   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002865s ]
+SQL: SELECT * FROM `comment` ORDER BY ctime DESC LIMIT 6   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `course` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: nosign_course D:\xampp\htdocs\ixuanxiu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
