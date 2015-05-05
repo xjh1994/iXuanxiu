@@ -118,7 +118,7 @@
               <h4 class="title"><span class="glyphicon glyphicon-heart-empty"></span> 不点名</h4>
               <hr />
               <ul class="list-unstyled">
-                  <?php if(is_array($nosign_course)): $i = 0; $__LIST__ = $nosign_course;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nosign): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Course/index?id=' . $nosign['id']);?>"><?php echo ($nosign["course_name"]); ?> <?php echo ($nosign["course_tid"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                  <?php if(is_array($nosign_course)): $i = 0; $__LIST__ = $nosign_course;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nosign): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Course/index?id=' . $nosign['id']);?>"><?php echo ($nosign["course_name"]); ?> <?php echo ($nosign["nosign"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
               </ul>
           </div>
           <div class="col-md-3" id="user">

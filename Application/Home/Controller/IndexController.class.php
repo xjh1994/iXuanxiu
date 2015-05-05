@@ -12,7 +12,7 @@ class IndexController extends BaseController {
         $courses = M("course")->limit("7")->select();
 
         $this->course();    //评论最多
-        // $this->nosign();    //不点名
+        $this->nosign();    //不点名
 
         $this->comment();   //评论
 
@@ -91,6 +91,7 @@ class IndexController extends BaseController {
         );
         $user = M('user')->where($where)->find();
         $_SESSION[C('USER_AUTH_KEY')] = $user_id;
+        $_SESSION[C('USER_NAME')] = $user['username'];
 
         if($user) {
 //            $this->error("用户已存在");            
@@ -123,7 +124,7 @@ class IndexController extends BaseController {
         $limit = 9;
         $where['nosign'] = array('gt', 0);
         $courses = M("course")->where($where)->order("nosign DESC")->limit($limit)->select();
-
+        // var_dump($courses);die;
         $this->assign("nosign_course", $courses);
     }
 
